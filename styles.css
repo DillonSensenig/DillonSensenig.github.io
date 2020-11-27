@@ -1,0 +1,175 @@
+/*--------------------Frequent--------------------*/
+* {
+  color: #1a1c20
+}
+
+.center {
+  text-align: center;
+}
+
+#headerOne {
+  border: 4px double black;
+}
+
+body {
+background-color: #f4f4f4;
+background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+/*-------------------Specific---------------------*/
+
+h2 {
+  font-size: 2.4em;
+  bottom: 4px;
+  width: 100%;
+}
+
+.edu:after {
+  content: "This is .edu";
+  font-style: italic;
+  font-size: .2em;
+}
+
+.exp:before {
+  content: "this is .exp";
+  font-style: italic;
+  font-stretch: extra-expanded;
+  font-size: .2em;
+}
+
+#headerOne {
+  color: black;
+  padding: 4px;
+  text-align: center;
+} 
+
+.edu {
+  color: black;
+  padding: 4px;
+  text-align: center;
+  border-bottom-style: double;
+} 
+
+ .edu2 {
+  width: 300px 20px;
+  border: 8px;
+  padding: 30px;
+  margin: 20px;
+ border-style: double;
+ align-self: start;
+}
+
+.exp {
+  color: black;
+  padding: 4px;
+  text-align: center;
+  border-bottom-style: double;
+} 
+
+ .exp1 {
+  width: 300px 20px;
+  border: 8px;
+  padding: 30px;
+  margin: 20px;
+ border-style: double;
+}
+
+.ital {
+  font-size: 40px;
+  text-align: center;
+  border-style: double;
+}
+
+h4 {
+ text-align: center;
+ border-bottom: double #cf7500 2px;
+}
+
+#abt {
+    width: 400px 30px;
+  border: 8px;
+  padding: 30px;
+  margin: 20px;
+ border-style: double;
+}
+
+#abt, .exp, .exp1, .edu, .edu2, #headerOne {
+  background-color: #f0a500;
+background-image: url ("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+
+/* --------slideshow-------- */
+
+
+
+.slide img { 
+  position: fixed; 
+  animation: slide 20s infinite;
+   opacity: 0;
+    width: 20%;
+     height: auto;
+     float: left;
+  }
+
+@keyframes slide {
+  25%{opacity:1;} 
+    40%{opacity:0;}
+    }
+
+.slide img:nth-child(4)
+{animation-delay:0s;
+}
+.slide img:nth-child(3)
+{animation-delay:5s;
+}
+.slide img:nth-child(2)
+{animation-delay:10s;
+}
+.slide img:nth-child(1)
+{animation-delay:15s;
+}
+
+.slide {
+  
+}
+
+/* 
+
+.ani {
+width: 100px;
+height: 100px;
+background-color: orange;
+position: relative;
+animation-name: square;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+animation-play-state: running;
+margin: 30px;
+overflow: auto;
+}
+
+@keyframes square {
+  0% {background-color: white;
+  left: 0px;
+  top: 0px;}
+  25% {background-color: blue;
+  left: 100px;
+  top: 0px;}
+   50% {background-color: red;
+   left: 100px;
+   top: 100px;
+   border-radius: 75%;}
+     75%{background-color: yellow;
+     left: 0px;
+     top: 100px;}
+      100% {background-color: green;
+      width: 50%;
+      border-radius: 20px;
+      left: 0px;
+      top: 0px;}
+}
+
+*/
